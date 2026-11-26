@@ -1,0 +1,15 @@
+# Ignora tudo
+*
+
+# Mantém o .gitignore
+!/.gitignore
+
+# Libera diretórios
+!/lib/
+!/lib/**/
+!/test/
+!/test/**/
+
+# Mantém arquivos Dart
+!/lib/**/*.dart
+!/test/**/*.dart
